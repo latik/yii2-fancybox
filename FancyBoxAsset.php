@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
 
 class FancyBoxAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/newerton/fancy-box/source/';
+    public $sourcePath = '@vendor/fancyapps/fancyBox/source/';
 
     public $js = [];
     
