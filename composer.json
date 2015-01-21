@@ -18,11 +18,11 @@
 		"php": ">=5.4.0",
 		"yiisoft/yii2": "*",
         "newerton/jquery-mousewheel": "dev-master",
-        "fancyapps/fancyBox": "dev-master",
+        "fancyapps/fancyBox": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "newerton\\fancybox\\": ""
+            "latik\\fancybox\\": ""
         }
     },
     "repositories": [

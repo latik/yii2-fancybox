@@ -12,13 +12,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist newerton/yii2-fancybox "dev-master"
+php composer.phar require --prefer-dist latik/yii2-fancybox "dev-master"
 ```
 
 or add
 
 ```
-"newerton/yii2-fancybox": "dev-master"
+"latik/yii2-fancybox": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
@@ -31,7 +31,7 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?php
-echo newerton\fancybox\FancyBox::widget([
+echo latik\fancybox\FancyBox::widget([
     'target' => 'a[rel=fancybox]',
     'helpers' => true,
     'mouse' => true,
