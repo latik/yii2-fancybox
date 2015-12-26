@@ -15,28 +15,14 @@
         }
     ],
     "require": {
-		"php": ">=5.4.0",
-		"yiisoft/yii2": "*",
-        "newerton/jquery-mousewheel": "dev-master",
-        "fancyapps/fancyBox": "dev-master"
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "bower-asset/fancybox": ">=2.1.5",
+        "bower-asset/jquery-mousewheel": ">=3.1.13"
     },
     "autoload": {
         "psr-4": {
             "latik\\fancybox\\": ""
         }
-    },
-    "repositories": [
-        {
-            "type":"package",
-            "package": {
-              "name": "fancyapps/fancyBox",
-              "version": "master",
-              "source": {
-                  "url": "https://github.com/fancyapps/fancyBox.git",
-                  "type": "git",
-                  "reference": "master"
-                }
-            }
-        }
-    ]
+    }
 }

@@ -9,19 +9,19 @@ use yii\web\AssetBundle;
 
 class FancyBoxAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/fancyapps/fancyBox/source/';
+    public $sourcePath = '@bower/fancybox';
 
     public $js = [];
     
     public $css = [
-        'jquery.fancybox.css'
+        'source/jquery.fancybox.css'
     ];
     public $depends = [
         'yii\web\JqueryAsset',
     ];
     
     public function registerAssetFiles($view) {
-        $this->js[] = 'jquery.fancybox' . (!YII_DEBUG ? '.pack' : '') . '.js';
+        $this->js[] = 'source/jquery.fancybox' . (!YII_DEBUG ? '.pack' : '') . '.js';
         parent::registerAssetFiles($view);
     }
 } 
